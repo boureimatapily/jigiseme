@@ -1,28 +1,72 @@
+
+
+.nav-item-menu{				
+	padding-top: 40px;
+}
+.nav-item-menu > li > a{
+	color: rgb(8, 8, 8);
+	padding-top: 3px;
+	padding-bottom: 3px;
+	margin-right: 5px;
+	margin-left: 5px; 
+	
+
+}
+.nav-item-menu > li > a:hover,.nav-item-menu > li > a:focus {
+	 text-decoration: none;
+    
+    border: 2px solid rgb(209,66,51);
+}
+
+.nav-active-item a{
+	border: 2px solid;
+	border-color:rgb(209,66,51);
+}
+a:hover a:focus{
+	color: rgb(209,66,51);
+	text-decoration: underline;
+}
+
+
+.overlay{
+    z-index: -10;
+    position: relative;
+    margin-top: 20px;
+    background-size: cover;
+}
+.description{
+    background-color: rgba(255, 248, 248, 0.726);
+    z-index: -05em;
+    opacity: -100em;
+    margin: 100px 0px 0px 0px;
+    padding: 50px 0px 0px 0px;
+    position: absolute;
+   mix-blend-mode: overlay;
+    text-align: center;
+    color: rgba(245, 58, 11, 0.979);
+    font-weight: bolder;
+    font-size: 20px; 
+    
+}
+address > p{
+    font-size: 20px;
+}
+address > ul > li{
+	display: inline-block;
+	padding: 10px;
+    font-size: 20px;
+    color: blue;
+    
+	
+}
+
 img{
-	float: right;
+    align-items: center;
 }
 
-h1{
-	color: blue;
-	font-size: 60px;
-}
-
-p{
-	font-size: 20px;
-}
-
-.footer{
-    color: white;
-    background-color:blue;
-    border-color: white;
-}
-
-h3{
-    color: red;
-    text-align: center;
-}
-
-h5{
-    color: green;
-    text-align: center;
+.p-shadown{
+    margin-bottom: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.925);
+    opacity: -100em;
+    
 }
