@@ -35,7 +35,7 @@ a:hover a:focus{
     background-size: cover;
 }
 .description{
-    background-color: rgba(255, 248, 248, 0.726);
+    background-color: rgba(255, 248, 248, 0.877);
     z-index: -05em;
     opacity: -100em;
     margin: 100px 0px 0px 0px;
@@ -44,11 +44,15 @@ a:hover a:focus{
    mix-blend-mode: overlay;
     text-align: center;
     color: rgba(8, 8, 8, 0.979);
-    font-weight: bolder;
+    font-weight: normal;
     font-size: 20px; 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
 }
+.item-bold{
+    font-weight: bolder;
+}
+
 address > p{
     font-size: 20px;
 }
