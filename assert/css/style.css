@@ -43,9 +43,10 @@ a:hover a:focus{
     position: absolute;
    mix-blend-mode: overlay;
     text-align: center;
-    color: rgba(245, 58, 11, 0.979);
+    color: rgba(8, 8, 8, 0.979);
     font-weight: bolder;
     font-size: 20px; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
 }
 address > p{
